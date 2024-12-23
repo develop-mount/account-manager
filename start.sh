@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置应用的 jar 包名
-APP_NAME=".target/platform-manager.jar"
+APP_NAME="./account-manager-1.0.1.jar"
 
 # 日志文件路径
 LOG_FILE="./app.log"
