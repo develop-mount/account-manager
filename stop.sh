@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置应用的 jar 包名
-APP_NAME="./account-manager-1.0.1.jar"
+APP_NAME="account-manager-1.0.1.jar"
 
 # 检查应用是否已经在运行
 PIDS=$(ps -ef | grep $APP_NAME | grep -v grep | awk '{print $2}')
