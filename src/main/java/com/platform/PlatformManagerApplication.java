@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class PlatformManagerApplication {
     
     static {
-        System.setProperty("webdriver.chrome.driver", "/Users/linfeng/server/chromedriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
     }
     
     public static void main(String[] args) {
